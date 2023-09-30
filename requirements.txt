@@ -6,3 +6,5 @@ dnspython
 psutil
 render
 requests
+flask==2.0.1
+requests
