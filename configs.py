@@ -4,6 +4,7 @@ import os
 
 class Config(object):
   API_ID = int(os.environ.get("API_ID", "4682685"))
+  PORT = os.environ.get("PORT","8080")
   API_HASH = os.environ.get("API_HASH", "3eba5d471162181b8a3f7f5c0a23c307")
   BOT_TOKEN = os.environ.get("BOT_TOKEN", "6268614122:AAFR6tNKLlO86cr5erLjQsDnWHlLHNakQo4")
   BOT_USERNAME = os.environ.get("BOT_USERNAME", "shazam_TB_bot")
