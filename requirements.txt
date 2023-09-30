@@ -6,6 +6,4 @@ dnspython
 psutil
 render
 requests
-flask
-aiohttps
-requests
+aiohttp
