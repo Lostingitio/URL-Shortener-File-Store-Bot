@@ -3,17 +3,17 @@
 import os
 
 class Config(object):
-  API_ID = int(os.environ.get("API_ID", ""))
-  API_HASH = os.environ.get("API_HASH", "")
-  BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-  BOT_USERNAME = os.environ.get("BOT_USERNAME", "")
-  DB_CHANNEL = int(os.environ.get("DB_CHANNEL", ""))
-  SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "GreyMatterslinks.in")
-  SHORTLINK_API = os.environ.get('SHORTLINK_API', "20eb8456008878c0349fc79d40fb4d1634cccf12")
-  BOT_OWNER = int(os.environ.get("BOT_OWNER", ""))
-  DATABASE_URL = os.environ.get("DATABASE_URL", "")
-  UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "")
-  LOG_CHANNEL = os.environ.get("LOG_CHANNEL", "")
+  API_ID = int(os.environ.get("API_ID", "4682685"))
+  API_HASH = os.environ.get("API_HASH", "3eba5d471162181b8a3f7f5c0a23c307")
+  BOT_TOKEN = os.environ.get("BOT_TOKEN", "6268614122:AAFR6tNKLlO86cr5erLjQsDnWHlLHNakQo4")
+  BOT_USERNAME = os.environ.get("BOT_USERNAME", "shazam_TB_bot")
+  DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1001868547833"))
+  SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "PaisaKamalo.in")
+  SHORTLINK_API = os.environ.get('SHORTLINK_API', "9d7e32c571c44b3ee91a814fa25c31e0211f5aeb")
+  BOT_OWNER = int(os.environ.get("BOT_OWNER", "945284066"))
+  DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://misoc51233:filestore@cluster0.imfn5pn.mongodb.net/?retryWrites=true&w=majority")
+  UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "movie_time_botonly")
+  LOG_CHANNEL = os.environ.get("LOG_CHANNEL", "-1001634620304")
   BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "").split())
   FORWARD_AS_COPY = bool(os.environ.get("FORWARD_AS_COPY", True))
   BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", True))
@@ -34,13 +34,13 @@ Send Me any Media or File. I can Work In Channel too. Add Me to Channel with Edi
 ╰──────[ 😎 ]───────────⍟
 """
   ABOUT_DEV_TEXT = f"""
-🧑🏻‍💻 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿: [@PredatorHackerzZ](https://github.com/PredatorHackerzZ)
+🧑🏻‍💻 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿: [Me](https://t.me/fligher)
  
  I am Super noob Please Support My Hard Work.
 
-[Donate Me](https://t.me/DonateXrobot) or MrAbhi2k3@apl
+
 """
   HOME_TEXT = """
 Hello, [{}](tg://user?id={})\n\nThis is a Permanent FileStore Bot.
 
-Join: @GreyMatter_Bots"""
+Join: @movie_time_botonly"""
